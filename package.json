@@ -10,6 +10,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "element-ui": "^2.4.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
