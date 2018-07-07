@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <app-header />
-    <router-view/>
+
+    <main>
+      <router-view/>
+    </main>
   </div>
 </template>
 
@@ -16,6 +19,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="stylus">
+@import './styles'
 </style>

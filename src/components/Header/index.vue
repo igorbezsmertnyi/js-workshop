@@ -16,5 +16,12 @@ export default {
 </script>
 
 <style lang="stylus">
+@import '../../styles'
 
+.header
+  position fixed
+  height 120px
+  top 0
+  left 0
+  padding 20px
 </style>
