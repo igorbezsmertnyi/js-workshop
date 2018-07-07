@@ -21,6 +21,7 @@ export default {
   img
     height 100%
     object-fit cover
+    box-shadow 4px 3px 20px 1px rgba(136, 136, 136, 0.27)
 
   h3
     margin 4px 0 0 15px
