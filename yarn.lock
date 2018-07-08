@@ -1855,6 +1855,12 @@ elliptic@^6.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
+embed-js@^4.2.1:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/embed-js/-/embed-js-4.2.3.tgz#13fa555a8da982c14de0d9bbe6c8305bc1bef0b2"
+  dependencies:
+    unfetch "^2.0.0"
+
 emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
@@ -5270,6 +5276,10 @@ uglifyjs-webpack-plugin@^1.1.1:
     webpack-sources "^1.1.0"
     worker-farm "^1.5.2"
 
+unfetch@^2.0.0:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/unfetch/-/unfetch-2.1.2.tgz#684fee4d8acdb135bdb26c0364c642fc326ca95b"
+
 union-value@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/union-value/-/union-value-1.0.0.tgz#5c71c34cb5bad5dcebe3ea0cd08207ba5aa1aea4"
@@ -5407,6 +5417,12 @@ vm-browserify@0.0.4:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
+
+vue-embed@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vue-embed/-/vue-embed-1.0.0.tgz#46609debc1697656d64c6336c1218403c42edd3b"
+  dependencies:
+    embed-js "^4.2.1"
 
 vue-hot-reload-api@^2.2.0:
   version "2.3.0"

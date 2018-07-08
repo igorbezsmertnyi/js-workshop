@@ -11,7 +11,7 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'history',
-  base: window.location.pathname,
+  base: process.env.NODE_ENV === 'production' ? 'js-workshop' : '',
   routes: [
     {
       path: '/',
