@@ -7,6 +7,10 @@
     {
       "label": "2. What can JavaScript?",
       "href": "/what-can-javasctipt"
+    },
+    {
+      "label": "3. What can't JavaScript?",
+      "href": "/what-cant-javascrip"
     }
   ]
 }
