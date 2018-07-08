@@ -15,7 +15,7 @@ mark
       margin 0
 
   &__body
-    max-width 768px
+    width 100%
 
     &__lead
       padding 15px 20px
@@ -30,3 +30,18 @@ mark
     p
       font-size $font-text
       line-height 1.8
+    
+    ul
+      list-style: none
+      padding 0
+      margin 40px 0 0
+    
+    li
+      position relative
+      padding 12px 0
+      font-size $font-list
+
+      &::before
+        content '•'
+        color $blue
+        margin-right 10px

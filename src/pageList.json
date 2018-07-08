@@ -1,0 +1,12 @@
+{
+  "pages": [
+    {
+      "label": "1. Intorduction",
+      "href": "/"
+    },
+    {
+      "label": "2. What can JavaScript?",
+      "href": "/what-can-javasctipt"
+    }
+  ]
+}

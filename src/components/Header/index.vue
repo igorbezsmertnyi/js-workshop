@@ -1,16 +1,19 @@
 <template>
   <header class="header">
     <logo />
+    <side-bar />
   </header>
 </template>
 
 <script>
 import Logo from './Logo'
+import SideBar from './SideBar'
 
 export default {
   name: 'AppHeader',
   components: {
-    Logo
+    Logo,
+    SideBar
   }
 }
 </script>

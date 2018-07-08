@@ -30,7 +30,7 @@
       <p>
         Was planned that JavaScript will be such "small brother" of Java. But history ordered otherwise. But history ordered otherwise, 
         JavaScript fast grew up, and now JavaScript is independent language, with own specification
-        <a href="https://ru.wikipedia.org/wiki/ECMAScript" target="_blank">(ECMAScript)</a> and Java has nothing to do with it.
+        <a href="https://en.wikipedia.org/wiki/ECMAScript" target="_blank">(ECMAScript)</a> and Java has nothing to do with it.
       </p>
       <br />
       <p>
