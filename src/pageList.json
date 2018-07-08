@@ -15,6 +15,10 @@
     {
       "label": "4. Dev Tools",
       "href": "/dev-tools"
+    },
+    {
+      "label": "5. Hello World",
+      "href": "/hello-world"
     }
   ]
 }

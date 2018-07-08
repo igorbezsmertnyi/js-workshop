@@ -5,6 +5,7 @@ import Introduction from '@/pages/Introduction'
 import WhatCanJs from '@/pages/WhatCanJs'
 import WhatCantJs from '@/pages/WhatCantJs'
 import DevTools from '@/pages/DevTools'
+import HelloWorld from '@/pages/HelloWorld'
 
 Vue.use(Router)
 
@@ -31,6 +32,11 @@ export default new Router({
       path: '/dev-tools',
       name: 'DevTools',
       component: DevTools
+    },
+    {
+      path: '/hello-world',
+      name: 'HelloWorld',
+      component: HelloWorld
     }
   ]
 })
