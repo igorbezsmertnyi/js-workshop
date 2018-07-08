@@ -11,6 +11,10 @@
     {
       "label": "3. What can't JavaScript?",
       "href": "/what-cant-javascrip"
+    },
+    {
+      "label": "4. Dev Tools",
+      "href": "/dev-tools"
     }
   ]
 }
