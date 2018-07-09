@@ -27,6 +27,10 @@
     {
       "label": "6.2 Number",
       "href": "/number-type"
+    },
+    {
+      "label": "6.3 Boolean",
+      "href": "/boolean-type"
     }
   ]
 }

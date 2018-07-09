@@ -8,6 +8,7 @@ import DevTools from '@/pages/DevTools'
 import HelloWorld from '@/pages/HelloWorld'
 import StringPage from '@/pages/String'
 import NumberPage from '@/pages/Number'
+import BooleanPage from '@/pages/Boolean'
 
 Vue.use(Router)
 
@@ -49,6 +50,11 @@ export default new Router({
       path: '/number-type',
       name: 'NumberPage',
       component: NumberPage
+    },
+    {
+      path: '/boolean-type',
+      name: 'BooleanPage',
+      component: BooleanPage
     }
   ]
 })
