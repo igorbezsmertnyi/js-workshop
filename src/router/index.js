@@ -6,6 +6,7 @@ import WhatCanJs from '@/pages/WhatCanJs'
 import WhatCantJs from '@/pages/WhatCantJs'
 import DevTools from '@/pages/DevTools'
 import HelloWorld from '@/pages/HelloWorld'
+import StringPage from '@/pages/String'
 
 Vue.use(Router)
 
@@ -37,6 +38,11 @@ export default new Router({
       path: '/hello-world',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/string-type',
+      name: 'StringPage',
+      component: StringPage
     }
   ]
 })
