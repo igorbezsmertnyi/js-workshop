@@ -7,6 +7,7 @@ import WhatCantJs from '@/pages/WhatCantJs'
 import DevTools from '@/pages/DevTools'
 import HelloWorld from '@/pages/HelloWorld'
 import StringPage from '@/pages/String'
+import NumberPage from '@/pages/Number'
 
 Vue.use(Router)
 
@@ -43,6 +44,11 @@ export default new Router({
       path: '/string-type',
       name: 'StringPage',
       component: StringPage
+    }, 
+    {
+      path: '/number-type',
+      name: 'NumberPage',
+      component: NumberPage
     }
   ]
 })

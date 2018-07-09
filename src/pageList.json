@@ -23,6 +23,10 @@
     {
       "label": "6.1 String",
       "href": "/string-type"
+    },
+    {
+      "label": "6.2 Number",
+      "href": "/number-type"
     }
   ]
 }

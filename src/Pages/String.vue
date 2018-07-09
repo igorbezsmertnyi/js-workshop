@@ -13,7 +13,6 @@
         Strings are contained within a pair of either single quotation marks '' or double quotation marks "".
       </p>
 
-      <p>Example</p>
       <VEmbed class="tutorial__gist" :id="gists[0]" :options="{ emoji: true }">
         https://gist.github.com/igorbezsmertnyi/bf7ab85e920fd3fc36fe1f300ddb8cf5
       </VEmbed>
