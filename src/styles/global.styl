@@ -20,6 +20,32 @@ mark
     a
       display none
 
+  &__table
+    &__2
+    &__3
+    &__4
+    &__6
+      th
+        padding 8px 16px
+        text-align left 
+        background transparentize($blue, .2)
+
+    &__2
+      th
+        width 50%
+    
+    &__3
+      th
+        width 33.3%
+
+    &__4
+      th
+        width 25%
+
+    &__6
+      th
+        width calc(100% / 6)
+
   &__body
     width 100%
 
@@ -51,3 +77,15 @@ mark
         content '•'
         color $blue
         margin-right 10px
+    
+    table
+      width 100%
+      margin 20px 0
+      border 1px solid $blue
+
+      td
+        padding 8px 16px
+
+      tr
+        &:nth-child(even)
+          background transparentize($blue, .1)

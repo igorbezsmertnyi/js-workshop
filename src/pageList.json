@@ -31,6 +31,10 @@
     {
       "label": "6.3 Boolean",
       "href": "/boolean-type"
+    },
+    {
+      "label": "7. Operators",
+      "href": "/operators"
     }
   ]
 }

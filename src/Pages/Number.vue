@@ -14,21 +14,6 @@
         https://gist.github.com/igorbezsmertnyi/b3d5c3cdadf453f197fbc2da5c45df21
       </VEmbed>
 
-      <h3>Operators</h3>
-
-      <ul>
-        <li>+ Addition</li>
-        <li>- Subtraction</li>
-        <li>*	Multiplication</li>
-        <li>%	Modulus (Division Remainder)</li>
-        <li>++ Increment</li>
-        <li>-- Decrement</li>
-      </ul>
-
-      <VEmbed class="tutorial__gist" :id="gists[8]" :options="{ emoji: true }">
-        https://gist.github.com/igorbezsmertnyi/d51ee20f7499da7e01ec875edca6632b
-      </VEmbed>
-
       <h3>Decimals and fractions</h3>
       <p>
         JavaScript doesn’t distinguish between whole numbers and decimals, so you can use them together without 
