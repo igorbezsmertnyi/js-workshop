@@ -10,6 +10,7 @@ import StringPage from '@/pages/String'
 import NumberPage from '@/pages/Number'
 import BooleanPage from '@/pages/Boolean'
 import OperatorsPage from '@/pages/Operators'
+import PrimitiveTypes from '@/pages/PrimitiveTypes'
 
 Vue.use(Router)
 
@@ -61,6 +62,11 @@ export default new Router({
       path: '/operators',
       name: 'OperatorsPage',
       component: OperatorsPage
+    },
+    {
+      path: '/primitive-types',
+      name: 'PrimitiveTypes',
+      component: PrimitiveTypes
     }
   ]
 })

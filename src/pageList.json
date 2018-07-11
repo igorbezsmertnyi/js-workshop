@@ -21,6 +21,10 @@
       "href": "/hello-world"
     },
     {
+      "label": "6. Primitive Types",
+      "href": "/primitive-types"
+    },
+    {
       "label": "6.1 String",
       "href": "/string-type"
     },
