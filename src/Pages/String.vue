@@ -6,15 +6,19 @@
 
     <div class="tutorial__body">
       <p>
-        <mark>Strings</mark> are values made up of text and can contain letters, numbers, symbols, 
-        punctuation, and even emoji.
+        <mark>Strings</mark> are sequences of symbols in Unicode. String create by enclosing the text that 
+        needs to be placed in them, into a double ("") or single ('') quotes. As already mentioned when we 
+        working with the string we can rely on the appropriate object wrapper in the prototype of which there 
+        are many useful methods, among them - <mark>substring()</mark>, <mark>indexOf()</mark>,
+        <mark>concat()</mark>.
       </p>
       <p>
-        Strings are contained within a pair of either single quotation marks '' or double quotation marks "".
+        String, like other primitive value, is immutable. For example <code>concat()</code> does not modify an 
+        existing line but creates a new one.
       </p>
 
       <VEmbed class="tutorial__gist" :id="gists[0]" :options="{ emoji: true }">
-        https://gist.github.com/igorbezsmertnyi/bf7ab85e920fd3fc36fe1f300ddb8cf5
+        https://gist.github.com/igorbezsmertnyi/dbdb4260a81d707a149e1424ae26a7d4
       </VEmbed>
 
       <h3>Enclosing quotation marks</h3>
@@ -96,7 +100,7 @@ export default {
 
   data: () => ({
     gists: [
-      'bf7ab85e920fd3fc36fe1f300ddb8cf5',
+      'dbdb4260a81d707a149e1424ae26a7d4',
       'b1b8986a8d18644fb55a9cccca01da59',
       'f6595c6a86fa62413ccf901a731c1161',
       'e54b97da367a3e1fa4dca630f0a71290',
