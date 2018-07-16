@@ -37,6 +37,10 @@
       "href": "/boolean-type"
     },
     {
+      "label": "6.4 Object",
+      "href": "/object-type"
+    },
+    {
       "label": "7. Operators",
       "href": "/operators"
     }
