@@ -50,10 +50,17 @@ mark
     width 100%
 
     &__lead
+      position relative
       padding 15px 20px
-      background $white-smoke
-      border-radius 8px
-      box-shadow 4px 3px 20px 1px rgba(136, 136, 136, 0.27)
+
+      &::before
+        content ''
+        position absolute
+        width 5px
+        height 100%
+        left 0
+        top 0
+        background transparentize($blue, .2)
 
     h3
       font-weight 100
@@ -62,6 +69,9 @@ mark
     p
       font-size $font-text
       line-height 1.8
+
+    code
+      padding 1px 4px
     
     ul
       list-style: none
