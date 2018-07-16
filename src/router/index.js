@@ -12,6 +12,7 @@ import BooleanPage from '@/pages/Boolean'
 import OperatorsPage from '@/pages/Operators'
 import PrimitiveTypes from '@/pages/PrimitiveTypes'
 import ObjectPage from '@/pages/Object'
+import VariablesPage from '@/pages/Variables'
 
 Vue.use(Router)
 
@@ -73,6 +74,11 @@ export default new Router({
       path: '/object-type',
       name: 'ObjectPage',
       component: ObjectPage
+    },
+    {
+      path: '/variables',
+      name: 'VariablesPage',
+      component: VariablesPage
     }
   ]
 })
