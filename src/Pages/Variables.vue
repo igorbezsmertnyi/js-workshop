@@ -6,14 +6,14 @@
 
     <div class="tutorial__body">
       <p>
-        In JavaScript, variables can be defined by using keyword <code>var</code>,
-        <code>let</code> or <code>const</code>.
+        In JavaScript, variables can be defined by using keyword <mark>var</mark>,
+        <mark>let</mark> or <mark>const</mark>.
       </p>
 
       <p>
         When you use keyword <code>var</code> you can define the variable, and if you want to
         initialize it with some value. If variable didn't initialize its value will be equal
-        <code>undefined</code>. Variables declared with <code>var</code> have a <mark>function scope</mark>.
+        <mark>undefined</mark>. Variables declared with <code>var</code> have a <mark>function scope</mark>.
       </p>
 
       <p>
@@ -21,7 +21,7 @@
       </p>
 
       <p>
-        A variable declared using <code>const</code> keyword connot be reassigned.
+        A variable declared using <code>const</code> keyword <mark>connot be reassigned</mark>.
         But value, however, can be mutable. The const declaration has a <mark>block scope</mark>.
       </p>
 

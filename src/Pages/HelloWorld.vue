@@ -13,10 +13,10 @@
         https://gist.github.com/igorbezsmertnyi/ee44b438360346b023b2c9c767e4446d
       </VEmbed>
 
-      <p class="tutorial__body__lead">
-        Programs in JavaScript can be embedded everywhere in script tag
-      </p>
+      <strong>Programs in JavaScript can be embedded everywhere in script tag</strong>
+
       <br/>
+
       <p>
         In this example we used 
         <code>&lt;script&gt; ... &lt;/script&gt;</code>

@@ -6,9 +6,9 @@
 
     <div class="tutorial__body">
       <p>
-        Contemporary <mark>JavaScript</mark> this is - "secure" general purpose programming language.
-        It hasn't low-level tools for working with memory and processors since, it was initially 
-        focused on browsers, in which it is not required.
+        Contemporary JavaScript this is - <mark>"secure"</mark> general purpose programming language.
+        It hasn't low-level tools for working with <mark>memory</mark> and <mark>processors</mark> 
+        since, it was initially focused on browsers, in which it is not required.
       </p>
 
       <p>
@@ -18,12 +18,19 @@
       </p>
 
       <ul>
-        <li>Creating HTML-tags, remove existing, changing component styles, hide and show element etc.</li>
-        <li>React to user actions, mouse clicks, moves and keyboard clicks</li>
-        <li>Sending request to the server and getting data without page reloading
+        <li>
+          Creating HTML-tags, remove existing, changing component styles, hide and show element etc.
+        </li>
+        <li>
+          React to user actions, mouse clicks, moves and keyboard clicks
+        </li>
+        <li>
+          Sending request to the server and getting data without page reloading
           <a href="https://en.wikipedia.org/wiki/Ajax_(programming)" target="_blank">(AJAX)</a>
         </li>
-        <li>Get and set cookies, requests data, deduce messages</li>
+        <li>
+          Get and set cookies, requests data, deduce messages
+        </li>
       </ul>
     </div>
   </div>

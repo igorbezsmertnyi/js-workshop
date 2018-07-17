@@ -11,9 +11,11 @@
         return from other function.
       </p>
 
-      <p>
+      <br/>
+
+      <strong>
         There are three ways to define a function:
-      </p>
+      </strong>
 
       <ul>
         <li>

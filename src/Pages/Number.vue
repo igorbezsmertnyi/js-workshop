@@ -6,7 +6,7 @@
 
     <div class="tutorial__body">
       <p>
-        JavaScript has only one type of number - this is a double-precision floating-point number. 
+        JavaScript has only <mark>one</mark> type of number - this is a <mark>double-precision floating-point</mark> number. 
         This cause that the results of the calculation of some expressions are arithmetically incorrect.
         Maybe you know that the result of <code>0.1 + 0.2</code> doesn’t a <code>0.3</code>. But if you 
         work with integer this problem doesn’t happen.
@@ -29,7 +29,7 @@
 
       <p>
         There are global functions for transform values of other types to a number type. This is - <mark>parseInt()</mark>,
-        <mark>parseFloat()</mark> and constructor <mark>Number()</mark>, which in this case used like regular function 
+        <mark>parseFloat()</mark> and constructor <mark>Number()</mark>, which in this case used like simple function 
         which make transformation.
       </p>
 

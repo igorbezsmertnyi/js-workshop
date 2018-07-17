@@ -6,25 +6,24 @@
 
     <div class="tutorial__body">
       <p>
-        The object is a dynamic data structure consisting of key-value pairs. The values can be primitive 
-        data or a function.
+        The object is a <mark>dynamic data structure</mark> consisting of <mark>key-value pairs</mark>. The values 
+        can be primitive data or a function.
       </p>
 
-      <p>
+      <strong>
         Objects are easiest to create using the syntax of object literals:
-      </p>
+      </strong>
 
+      <br/>
       <br/>
 
       <VEmbed class="tutorial__gist" :id="gists[0]" :options="{ emoji: true }">
         https://gist.github.com/igorbezsmertnyi/ae7a2f64d1f644d3768eb08c640a2796
       </VEmbed>
 
-      <br/>
-
-      <p>
+      <strong>
         We can read, add, edit and remove an object’s properties at any time:
-      </p>
+      </strong>
 
       <ul>
         <li>
@@ -47,7 +46,7 @@
       <br/>
 
       <p>
-        In JavaScrtipt object are implemented as hash-map. Empty hash-map can be reated using 
+        In JavaScrtipt object are implemented as <mark>hash-map</mark>. Empty hash-map can be reated using 
         <code>Object.create(null)</code>
       </p>
 
@@ -55,10 +54,13 @@
         If you wont make object imutaleble use <code>Object.freeze()</code>
       </p>
 
-      <p>
-        <code>Object.keys()</code> can be used for iterate over all properties.
-      </p>
+      <br/>
 
+      <strong>
+        <code>Object.keys()</code> can be used for iterate over all properties.
+      </strong>
+
+      <br/>
       <br/>
 
       <VEmbed class="tutorial__gist" :id="gists[2]" :options="{ emoji: true }">

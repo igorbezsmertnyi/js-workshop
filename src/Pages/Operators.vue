@@ -6,7 +6,8 @@
 
     <div class="tutorial__body">
       <p>
-        JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more.
+        JavaScript operators are used to <mark>assign</mark> values, <mark>compare</mark> values, <mark>perform
+        arithmetic</mark> operations, and more.
       </p>
 
       <h3>Arithmetic operators are used to perform arithmetic on numbers:</h3>
