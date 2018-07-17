@@ -1,7 +1,7 @@
 <template>
   <div class="tutorial"> 
     <div class="tutorial__title">
-      <h1>7. Operators</h1>
+      <h1>9. Operators</h1>
     </div>
 
     <div class="tutorial__body">

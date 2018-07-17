@@ -13,6 +13,8 @@ import OperatorsPage from '@/pages/Operators'
 import PrimitiveTypes from '@/pages/PrimitiveTypes'
 import ObjectPage from '@/pages/Object'
 import VariablesPage from '@/pages/Variables'
+import ArrayPage from '@/pages/Array'
+import FunctionPage from '@/pages/Function'
 
 Vue.use(Router)
 
@@ -79,6 +81,16 @@ export default new Router({
       path: '/variables',
       name: 'VariablesPage',
       component: VariablesPage
+    },
+    {
+      path: '/array',
+      name: 'ArrayPage',
+      component: ArrayPage
+    },
+    {
+      path: '/function',
+      name: 'FunctionPage',
+      component: FunctionPage
     }
   ]
 })

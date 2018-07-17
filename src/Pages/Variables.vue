@@ -42,9 +42,7 @@ export default {
   },
 
   data: () => ({
-    gists: [
-
-    ]
+    gists: []
   })
 }
 </script>

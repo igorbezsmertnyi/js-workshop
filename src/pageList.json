@@ -43,6 +43,18 @@
     {
       "label": "7. Variables",
       "href": "/variables"
+    },
+    {
+      "label": "8. Array",
+      "href": "/array"
+    },
+    {
+      "label": "9. Operators",
+      "href": "/operators"
+    },
+    {
+      "label": "10. Function",
+      "href": "/function"
     }
   ]
 }
