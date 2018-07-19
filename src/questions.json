@@ -1,0 +1,283 @@
+{
+  "list": [
+    {
+      "title": "Where JavaScript can be run?",
+      "desctiption": "",
+      "options": [
+        "Only in browser",
+        "On server",
+        "Everywhere with the special environment"
+      ],
+      "answerIndex": [
+        2
+      ]
+    },
+    {
+      "title": "How looks JS code?",
+      "desctiption": "When you trying to run the code it looks like?",
+      "options": [
+        "Simple string",
+        "Byte code",
+        "Hex file"
+      ],
+      "answerIndex": [
+        0
+      ]
+    },
+    {
+      "title": "What should be the name of JavaScript?",
+      "desctiption": "The name of JavaScript, before as marketers changed it?",
+      "options": [
+        "TypeScript",
+        "LiveScript",
+        "CoffeScript"
+      ],
+      "answerIndex": [
+        1
+      ]
+    },
+    {
+      "title": "How calls a process of script implementation?",
+      "desctiption": "For a running program on JS need special programmes which doing ... of code",
+      "options": [
+        "Interpretation",
+        "Exegesis",
+        "Reading"
+      ],
+      "answerIndex": [
+        0
+      ]
+    },
+    {
+      "title": "What can JS?",
+      "desctiption": "Select which actions can JS?",
+      "options": [
+        "Running programs on the user computer",
+        "Communicate with the server",
+        "Create HTML-tags",
+        "Write random files to the disk",
+        "Execute events in the browser window",
+        "Set, remove, edit cookies",
+        "Call your mom"
+      ],
+      "answerIndex": [
+        1, 2, 4, 5
+      ]
+    },
+    {
+      "title": "How inject script on the web page?",
+      "desctiption": "Select correct option",
+      "options": [
+        "By inserting code to &lt;p&gt; tag",
+        "Via browser DevTool",
+        "By using &lt;script&gt; tag"
+      ],
+      "answerIndex": [
+        2
+      ]
+    },
+    {
+      "title": "When do we want to use methods from string on the number object, what exactly will happen?",
+      "desctiption": "Select correct option",
+      "options": [
+        "Nothing",
+        "JS automatically transformed to the relevant object",
+        "An error because we can't borrow methods from different data types"
+      ],
+      "answerIndex": [
+        1
+      ]
+    },
+    {
+      "title": "What is the String?",
+      "desctiption": "Select correct option",
+      "options": [
+        "Strings are sequences of symbols in Unicode",
+        "Strings are sequences of bytes",
+        "Strings are part of the code and can be executed like command"
+      ],
+      "answerIndex": [
+        0
+      ]
+    },
+    {
+      "title": "How create string in JavaScript?",
+      "desctiption": "Select properly methods",
+      "options": [
+        "By using double quotes (\"text\")",
+        "By using curly brackets ({text})",
+        "By using single qutes ('text')",
+        "By useig simple brackets (text)",
+        "By using low dash (_text_)"
+      ],
+      "answerIndex": [
+        0, 2
+      ]
+    },
+    {
+      "title": "How will be looks output of following code?",
+      "desctiption": "'&nbsp;&nbsp;&nbsp;&nbsp; Integer odio urna, mattis placerat &nbsp;&nbsp;&nbsp;&nbsp;'.trim().substring(1, 6)",
+      "options": [
+        "'matti'",
+        "'&nbsp;&nbsp;&nbsp;&nbsp;integer odio urna, mattis placerat&nbsp;&nbsp;&nbsp;&nbsp;'",
+        "'&nbsp;&nbsp;&nbsp;&nbsp;NTEGE&nbsp;&nbsp;&nbsp;&nbsp;'",
+        "'Integer odio urna, mattis placerat'",
+        "'ntege'"
+      ],
+      "answerIndex": [
+        4
+      ]
+    },
+    {
+      "title": "What the type of number JS have?",
+      "desctiption": "Select correct option",
+      "options": [
+        "Long integer",
+        "Decimal",
+        "Double-precision floating-point",
+        "Complex"
+      ],
+      "answerIndex": [
+        2
+      ]
+    },
+    {
+      "title": "How will be looking output of following code?",
+      "desctiption": "0.1 + 0.2",
+      "options": [
+        "0.3",
+        "0.30000000000000004",
+        ".3",
+        "0.30"
+      ],
+      "answerIndex": [
+        1
+      ]
+    },
+    {
+      "title": "Select the correct example of converting a number to the string",
+      "desctiption": "",
+      "options": [
+        "String(10)",
+        "10.toString()",
+        "(10).toString()",
+        "10.String()"
+      ],
+      "answerIndex": [
+        0, 2
+      ]
+    },
+    {
+      "title": "How read value from object?",
+      "desctiption": "Select corrent options",
+      "options": [
+        "object.name",
+        "object[expression]",
+        "object['expression']"
+      ],
+      "answerIndex": [
+        0, 1, 2
+      ]
+    },
+    {
+      "title": "How in JS was implemented objects?",
+      "desctiption": "",
+      "options": [
+        "Implemented as hash-map",
+        "Implemented as hash-code",
+        "Implemented as interface"
+      ],
+      "answerIndex": [
+        0
+      ]
+    },
+    {
+      "title": "What type of scope has 'let' keyword and how it differs 'const'?",
+      "description": "Select correct option",
+      "options": [
+        "Has function scope and can't connot be reassigned",
+        "Has global and can be reassigned",
+        "Has block scope and can't connot be reassigned",
+        "Has block scope and can be reassigned",
+        "Has function scope and can be reassigned",
+        "Has global scope and can be reassigned"
+      ],
+      "answerIndex": [
+        3
+      ]
+    },
+    {
+      "title": "How was implemented an Array in JavaScript?",
+      "description": "Select correct option",
+      "options": [
+        "As sequence of chars",
+        "As objects",
+        "As hash-map"
+      ],
+      "answerIndex": [
+        1, 2
+      ]
+    },
+    {
+      "title": "What method correct for deleting element with index '1' from an array?",
+      "description": "Select correct option. An Array is arr = ['A', 'B', 'C']",
+      "options": [
+        "delete arr[1]",
+        "arr.splice(1, 1)",
+        "arr.substring(1, 1)"
+      ],
+      "answerIndex": [
+        1
+      ]
+    },
+    {
+      "title": "What checking operator '===' ?",
+      "description": "Select correct option",
+      "options": [
+        "Checking equality of two values",
+        "Checking if first value more then second",
+        "Checking equality and type of values"
+      ],
+      "answerIndex": [
+        2
+      ]
+    },
+    {
+      "title": "Which output you will see in console?",
+      "description": "if (((('4' === 4) || (5 << 1) > 5) && (typeof [1, 2, 3] != 'object')) || !('NaN' in String)) { <br/> &nbsp;&nbsp; console.log('This is True') <br/> } else { <br/> &nbsp;&nbsp; console.log('This is False') <br/> }",
+      "options": [
+        "This is True",
+        "This is False"
+      ],
+      "answerIndex": [
+        0
+      ]
+    },
+    {
+      "title": "What the difference between arrow function and expression function?",
+      "description": "Select correct options",
+      "options": [
+        "Arrow function don’t have their own this and arguments methods",
+        "Arrow function can't be used globally",
+        "For define, arrow function need to be used keyword function"
+      ],
+      "answerIndex": [
+        0
+      ]
+    },
+    {
+      "title": "Select correct output of this code",
+      "description": "let v1 = 10 <br/> let v2 = 3 <br/><br/>const sumSqrt = (val1, val2) => { <br/> &nbsp;&nbsp; const sqrt1 = val1 * val1 <br/> &nbsp;&nbsp; const sqrt2 = val2 * val2 <br/> &nbsp;&nbsp; return sqrt1 + sqrt2 <br/> } <br/> <br/> const result = (sumSqrt(v1, v2) * 10) % 3",
+      "options": [
+        "109",
+        "1",
+        "2",
+        "1090",
+        "0"
+      ],
+      "answerIndex": [
+        1
+      ]
+    }
+  ]
+}

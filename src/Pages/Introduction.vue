@@ -8,8 +8,10 @@
       <h3>What is JavaScript?</h3>
       
       <p>
-        JavaScript was originally created for making web pages "live". Programs on this language are called <em>scripts</em>.
-        In browsers scripts straightly connected to HTML document and initialized at once when the <mark>page loaded</mark>.
+        JavaScript often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also 
+        characterized as dynamic, weakly typed, prototype-based and multi-paradigm. JavaScript was originally created for 
+        making web pages "live". Programs on this language are called <em>scripts</em>. In browsers scripts straightly 
+        connected to HTML document and initialized at once when the <mark>page loaded</mark>.
       </p>
 
       <p>

@@ -8,6 +8,14 @@
           </li>
         </router-link>
       </ul>
+
+      <div class="side-bar__test">
+        <router-link to="/knowledge-test">
+          <el-button type="success">
+            Knowledge Test
+          </el-button>
+        </router-link>
+      </div>
     </nav>
   </aside>
 </template>
@@ -46,4 +54,13 @@ export default {
     font-size $font-menu
     text-decoration-color $green
     padding 8px 0 6px
+
+  &__test
+    a
+      width 100
+      display block
+    
+    button
+      width 100%
+      box-shadow 4px 3px 20px 1px rgba(136, 136, 136, 0.27)
 </style>
