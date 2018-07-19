@@ -87,6 +87,16 @@
       <VEmbed class="tutorial__gist" :id="gists[2]" :options="{ emoji: true }">
         https://gist.github.com/igorbezsmertnyi/aaf340f403f705b8fa67f2959e1f1d4d
       </VEmbed>
+
+      <p class="tutorial__body__lead">
+        return
+      </p>
+
+      <p>
+        A function with no return statement returns undefined. Pay attention to the automatic 
+        semi-colon insertion when using return. The following function will not return an empty 
+        object, but rather an undefined one.
+      </p>
     </div>
   </div>
 </template>
