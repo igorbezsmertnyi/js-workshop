@@ -115,6 +115,18 @@ export default {
   &__card
     margin-bottom 40px
 
+    &__header
+      display flex
+      flex-direction column
+
+      span
+        font-size $font-text
+
+      small
+        color #909399
+        font-size $font-default
+        margin-top 10px
+
     &__body
       display flex
       flex-direction row

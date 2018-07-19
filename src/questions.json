@@ -2,7 +2,7 @@
   "list": [
     {
       "title": "Where JavaScript can be run?",
-      "desctiption": "",
+      "description": "",
       "options": [
         "Only in browser",
         "On server",
@@ -14,7 +14,7 @@
     },
     {
       "title": "How looks JS code?",
-      "desctiption": "When you trying to run the code it looks like?",
+      "description": "When you trying to run the code it looks like?",
       "options": [
         "Simple string",
         "Byte code",
@@ -26,7 +26,7 @@
     },
     {
       "title": "What should be the name of JavaScript?",
-      "desctiption": "The name of JavaScript, before as marketers changed it?",
+      "description": "The name of JavaScript, before as marketers changed it?",
       "options": [
         "TypeScript",
         "LiveScript",
@@ -38,7 +38,7 @@
     },
     {
       "title": "How calls a process of script implementation?",
-      "desctiption": "For a running program on JS need special programmes which doing ... of code",
+      "description": "For a running program on JS need special programmes which doing ... of code",
       "options": [
         "Interpretation",
         "Exegesis",
@@ -50,7 +50,7 @@
     },
     {
       "title": "What can JS?",
-      "desctiption": "Select which actions can JS?",
+      "description": "Select which actions can JS?",
       "options": [
         "Running programs on the user computer",
         "Communicate with the server",
@@ -66,7 +66,7 @@
     },
     {
       "title": "How inject script on the web page?",
-      "desctiption": "Select correct option",
+      "description": "Select correct option",
       "options": [
         "By inserting code to &lt;p&gt; tag",
         "Via browser DevTool",
@@ -78,7 +78,7 @@
     },
     {
       "title": "When do we want to use methods from string on the number object, what exactly will happen?",
-      "desctiption": "Select correct option",
+      "description": "Select correct option",
       "options": [
         "Nothing",
         "JS automatically transformed to the relevant object",
@@ -90,7 +90,7 @@
     },
     {
       "title": "What is the String?",
-      "desctiption": "Select correct option",
+      "description": "Select correct option",
       "options": [
         "Strings are sequences of symbols in Unicode",
         "Strings are sequences of bytes",
@@ -102,7 +102,7 @@
     },
     {
       "title": "How create string in JavaScript?",
-      "desctiption": "Select properly methods",
+      "description": "Select properly methods",
       "options": [
         "By using double quotes (\"text\")",
         "By using curly brackets ({text})",
@@ -116,7 +116,7 @@
     },
     {
       "title": "How will be looks output of following code?",
-      "desctiption": "'&nbsp;&nbsp;&nbsp;&nbsp; Integer odio urna, mattis placerat &nbsp;&nbsp;&nbsp;&nbsp;'.trim().substring(1, 6)",
+      "description": "'&nbsp;&nbsp;&nbsp;&nbsp; Integer odio urna, mattis placerat &nbsp;&nbsp;&nbsp;&nbsp;'.trim().substring(1, 6)",
       "options": [
         "'matti'",
         "'&nbsp;&nbsp;&nbsp;&nbsp;integer odio urna, mattis placerat&nbsp;&nbsp;&nbsp;&nbsp;'",
@@ -130,7 +130,7 @@
     },
     {
       "title": "What the type of number JS have?",
-      "desctiption": "Select correct option",
+      "description": "Select correct option",
       "options": [
         "Long integer",
         "Decimal",
@@ -143,7 +143,7 @@
     },
     {
       "title": "How will be looking output of following code?",
-      "desctiption": "0.1 + 0.2",
+      "description": "0.1 + 0.2",
       "options": [
         "0.3",
         "0.30000000000000004",
@@ -156,7 +156,7 @@
     },
     {
       "title": "Select the correct example of converting a number to the string",
-      "desctiption": "",
+      "description": "",
       "options": [
         "String(10)",
         "10.toString()",
@@ -169,7 +169,7 @@
     },
     {
       "title": "How read value from object?",
-      "desctiption": "Select corrent options",
+      "description": "Select corrent options",
       "options": [
         "object.name",
         "object[expression]",
@@ -181,7 +181,7 @@
     },
     {
       "title": "How in JS was implemented objects?",
-      "desctiption": "",
+      "description": "",
       "options": [
         "Implemented as hash-map",
         "Implemented as hash-code",
@@ -195,15 +195,14 @@
       "title": "What type of scope has 'let' keyword and how it differs 'const'?",
       "description": "Select correct option",
       "options": [
-        "Has function scope and can't connot be reassigned",
-        "Has global and can be reassigned",
-        "Has block scope and can't connot be reassigned",
+        "Has function scope and can't be reassigned",
+        "Has block scope and can't be reassigned",
         "Has block scope and can be reassigned",
         "Has function scope and can be reassigned",
         "Has global scope and can be reassigned"
       ],
       "answerIndex": [
-        3
+        2, 4
       ]
     },
     {
