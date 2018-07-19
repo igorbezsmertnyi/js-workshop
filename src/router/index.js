@@ -16,6 +16,7 @@ import VariablesPage from '@/pages/Variables'
 import ArrayPage from '@/pages/Array'
 import FunctionPage from '@/pages/Function'
 import KnowledgeTest from '@/pages/KnowledgeTest'
+import Results from '@/pages/Results'
 
 Vue.use(Router)
 
@@ -97,6 +98,11 @@ export default new Router({
       path: '/knowledge-test',
       name: 'KnowledgeTest',
       component: KnowledgeTest
+    },
+    {
+      path: '/knowledge-test/results',
+      name: 'Results',
+      component: Results
     }
   ]
 })

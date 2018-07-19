@@ -13,9 +13,11 @@
       >
         Next
       </el-button>
+
       <el-button 
         v-if="currentQuestion == questionsTotal - 1" 
         :disabled="!optionsSelected"
+        @click="showResult()"
         type="success" 
         round
       >
@@ -71,6 +73,10 @@ export default {
 
     removeAnswer(index, id) {
       this.$store.dispatch('removeAnswer', { id: id, index: index })
+    },
+
+    showResult() {
+      this.$router.push({ path: '/knowledge-test/results' })
     }
   },
 
