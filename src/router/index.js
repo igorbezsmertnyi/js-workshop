@@ -17,6 +17,7 @@ import ArrayPage from '@/pages/Array'
 import FunctionPage from '@/pages/Function'
 import KnowledgeTest from '@/pages/KnowledgeTest'
 import Results from '@/pages/Results'
+import Certificate from '@/pages/Certificate'
 
 Vue.use(Router)
 
@@ -103,6 +104,11 @@ export default new Router({
       path: '/knowledge-test/results',
       name: 'Results',
       component: Results
+    },
+    {
+      path: '/knowledge-test/certificate',
+      name: 'Certificate',
+      component: Certificate
     }
   ]
 })

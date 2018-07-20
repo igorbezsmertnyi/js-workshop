@@ -39,6 +39,12 @@
         </div>
       </div>
     </el-card>
+
+    <div class="results__get-certificate">
+      <router-link to="/knowledge-test/certificate">
+        <el-button type="success" round>Get Certificate</el-button>
+      </router-link>
+    </div>
   </div>
 </template>
 
@@ -87,10 +93,6 @@ export default {
 
       return itemAnswers[row] == yourAnswers[row]
     }
-  },
-
-  computed: {
-
   }
 }
 </script>
@@ -147,4 +149,10 @@ export default {
       
       &--wrong
         color $red
+
+  &__get-certificate
+    display flex
+    justify-content center
+    align-items center
+    padding 40px 20px
 </style>

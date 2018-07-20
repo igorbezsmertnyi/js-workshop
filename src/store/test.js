@@ -20,9 +20,17 @@ export default {
   },
 
   mutations: {
+    RESET_RESULTS(state) {
+      state.isStarted = false
+      state.currentQuestion = 0
+      state.answers = [ ...Array(Questions.list.length ).keys()].map(() => [])
+    },
+  
     START_TEST(state) {
       state.currentQuestion = 0
       state.isStarted = true
+
+      localStorage.removeItem('testAnswers')
     },
 
     NEXT_QUESTION(state) {
@@ -55,6 +63,10 @@ export default {
   },
 
   actions: {
+    resetResults({ commit }) {
+      commit('RESET_RESULTS')
+    },
+
     startTest({ commit }) {
       commit('START_TEST')
     },

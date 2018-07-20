@@ -10,11 +10,9 @@
       </ul>
 
       <div class="side-bar__test">
-        <router-link to="/knowledge-test">
-          <el-button type="success">
-            Knowledge Test
-          </el-button>
-        </router-link>
+        <el-button type="success" @click="startTest()">
+          Knowledge Test
+        </el-button>
       </div>
     </nav>
   </aside>
@@ -27,7 +25,14 @@ export default {
   name: 'SideBar',
   data: () => ({
     pages: Pages.pages
-  })
+  }),
+
+  methods: {
+    startTest() {
+      this.$store.dispatch('resetResults')
+      this.$router.push({ path: '/knowledge-test' })
+    }
+  }
 }
 </script>
 

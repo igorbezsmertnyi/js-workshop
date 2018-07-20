@@ -171,7 +171,7 @@
       "title": "How read value from object?",
       "description": "Select corrent options",
       "options": [
-        "object.name",
+        "object.expression",
         "object[expression]",
         "object['expression']"
       ],
